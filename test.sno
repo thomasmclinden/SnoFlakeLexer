@@ -1,0 +1,7 @@
+nonchanging integer x = 5;
+nonchanging integer y = 10;
+
+none main() {
+    integer sum = x + y;
+    return;
+}
