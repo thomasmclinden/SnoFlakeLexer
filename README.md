@@ -56,7 +56,7 @@ To use the standalone transpiler (`transpiler.py`):
 ## Example SnoFlake Code
 
 ```snoflake
-integer main() {
+none main() {
   say "Hello from SnoFlake!" endl;
   integer count = 0;
   nonchanging integer limit = 5;
@@ -68,6 +68,4 @@ integer main() {
       say "Reached three!" endl;
     }
   }
-
-  return 0;
 }
